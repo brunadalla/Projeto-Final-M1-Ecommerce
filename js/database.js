@@ -3,13 +3,13 @@
 const data = [
   {
     id: 1,
-    img: "../img/jaqueta.svg",
-    nameItem: "Lightweight Jacket",
+    img: "img/Chaveiros/Gato1.jpeg",
+    nameItem: "Luna",
     description:
-      "Adicione um pouco de energia ao seu guarda-roupa de inverno com esta jaqueta vibrante...",
-    value: 100,
+      "Chaveiro em forma do gatinho da Sailor Moon",
+    value: 25,
     addCart: "Adicionar ao carrinho",
-    tag: ["Camisetas"],
+    tag: ["Chaveiros"],
   },
   {
     id: 2,
