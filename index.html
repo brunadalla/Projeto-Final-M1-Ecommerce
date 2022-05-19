@@ -18,89 +18,15 @@
         <h1 id="logo">Dalla Atelie</h1>
         <nav>
             <ul id="categorias">
-                <li>Todos</li>
-                <li>Chaveiros</li>
-                <li>Caixas</li>
-                <li>Esculturas</li>
+                <button id="btnTodos">Todos</button>
+                <button id="btnChaveiros">Chaveiros</button>
+                <button id="btnCaixas">Caixas</button>
+                <button id="btnEsculturas">Esculturas</button>
             </ul>
         </nav>
     </header>
     <main>
         <section id="vitrine">
-            <ul>
-                <li>
-                    <div class="img">
-                        <img src="img/Chaveiros/Gato1.jpeg" alt="Chaveiro Luna" class="imgProdutos">
-                    </div>
-                    <div class="descricao">
-                        <span class="tag">Chaveiro</span>
-                        <h2 class="nomeProdutos">Luna</h2>
-                        <p class="descricoes">Chaveiro em forma do gatinho Luna ('Sailor Moon')</p>
-                        <span class="valores">R$ 25,00</span>
-                        <button class="btnAdicionarCarrinho">Adicionar ao carrinho</button>
-                    </div>
-                </li>
-                <li>
-                    <div class="img">
-                        <img src="img/Chaveiros/NoFace1.jpeg" alt="Chaveiro No Face" class="imgProdutos">
-                    </div>
-                    <div class="descricao">
-                        <span class="tag">Chaveiro</span>
-                        <h2 class="nomeProdutos">No Face</h2>
-                        <p class="descricoes">Chaveiro em forma do No Face ('Spirited Away')</p>
-                        <span class="valores">R$ 25,00</span>
-                        <button class="btnAdicionarCarrinho">Adicionar ao carrinho</button>
-                    </div>
-                </li>
-                <li>
-                    <div class="img">
-                        <img src="img/Chaveiros/Sapo1.jpeg" alt="Chaveiro sapinho" class="imgProdutos">
-                    </div>
-                    <div class="descricao">
-                        <span class="tag">Chaveiro</span>
-                        <h2 class="nomeProdutos">Sapinho Festeiro</h2>
-                        <p class="descricoes">Chaveiro em forma de sapinho com chapéuzinho de festa</p>
-                        <span class="valores">R$ 25,00</span>
-                        <button class="btnAdicionarCarrinho">Adicionar ao carrinho</button>
-                    </div>
-                </li>
-                <li>
-                    <div class="img">
-                        <img src="img/Caixas/CaixaN1.jpeg" alt="Caixa natalina" class="imgProdutos">
-                    </div>
-                    <div class="descricao">
-                        <span class="tag">Caixas</span>
-                        <h2 class="nomeProdutos">Cxa Natal</h2>
-                        <p class="descricoes">Caixa festiva em comemoração ao Natal</p>
-                        <span class="valores">R$ 50,00</span>
-                        <button class="btnAdicionarCarrinho">Adicionar ao carrinho</button>
-                    </div>
-                </li>
-                <li>
-                    <div class="img">
-                        <img src="img/Caixas/CaixaP1.jpeg" alt="Caixa pokemons" class="imgProdutos">
-                    </div>
-                    <div class="descricao">
-                        <span class="tag">Caixas</span>
-                        <h2 class="nomeProdutos">Cxa Pokemon Água</h2>
-                        <p class="descricoes">Caixa decorada com alguns dos pokemons aquáticos</p>
-                        <span class="valores">R$ 180,00</span>
-                        <button class="btnAdicionarCarrinho">Adicionar ao carrinho</button>
-                    </div>
-                </li>
-                <li>
-                    <div class="img">
-                        <img src="img/Esculturas/Bichos1.jpeg" alt="Conjunto esculturas de animais da fazenda" class="imgProdutos">
-                    </div>
-                    <div class="descricao">
-                        <span class="tag">Esculturas</span>
-                        <h2 class="nomeProdutos">Bichinhos Fazendinha</h2>
-                        <p class="descricoes">Conjunto de esculturas em formato de vaquinha, ovelhinha e porquinho</p>
-                        <span class="valores">R$ 60,00</span>
-                        <button class="btnAdicionarCarrinho">Adicionar ao carrinho</button>
-                    </div>
-                </li>
-            </ul>
         </section>
         <aside>
             <div id="barraPesquisa">
@@ -109,9 +35,19 @@
             </div>
             <div id="carrinho">
                 <h2>Carrinho de compras</h2>
-                <main>
-                    <h3>Carrinho vazio</h3>
-                    <p>Adicione items</p>
+                <main id="carrinhoArea">
+                    <div id="mainCarrinho" class="mainCarrinho">
+                        <h3 id="carrVazio">Carrinho Vazio</h3>
+                        <p id="adicioneItens">Adicione itens</p>
+                    </div>
+                    <div id="infoFinalCarrinho">
+                        <div id="qntd">
+                            <h4>Quantidade:</h4>
+                        </div>
+                        <div id="total">
+                            <h4>Total:</h4>
+                        </div>
+                    </div>
                 </main>
             </div>
         </aside>
