@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <script defer src="js/database.js"></script>
+    <script defer src="js/index.js"></script>
+    <title>Dalla Atelie</title>
+</head>
+
+<body>
+    <header>
+        <h1 id="logo">Dalla Atelie</h1>
+        <nav>
+            <ul id="categorias">
+                <button id="btnTodos">Todos</button>
+                <button id="btnChaveiros">Chaveiros</button>
+                <button id="btnCaixas">Caixas</button>
+                <button id="btnEsculturas">Esculturas</button>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="vitrine">
+        </section>
+        <aside>
+            <div id="barraPesquisa">
+                <input type="text" placeholder="Digite aqui sua pesquisa">
+                <button id="btnPesquisar">Pesquisar</button>
+            </div>
+            <div id="carrinho">
+                <h2>Carrinho de compras</h2>
+                <main id="carrinhoArea">
+                    <div id="mainCarrinho" class="mainCarrinho">
+                        <h3 id="carrVazio">Carrinho Vazio</h3>
+                        <p id="adicioneItens">Adicione itens</p>
+                    </div>
+                    <div id="infoFinalCarrinho">
+                        <div id="qntd">
+                            <h4>Quantidade:</h4>
+                        </div>
+                        <div id="total">
+                            <h4>Total:</h4>
+                        </div>
+                    </div>
+                </main>
+            </div>
+        </aside>
+    </main>
+</body>
+
+</html>

@@ -1,0 +1,306 @@
+html, body, div, span, h1, h2, h3, p, a, img, ul, li, aside, header, nav, section {
+	margin:     0;
+	padding:    0;
+	border:     0;
+	font-size:  100%;
+}
+ul {
+	list-style: none;
+}
+
+header {
+    height:             70px;
+    display:            flex;
+    justify-content:    space-between;
+    align-items:        center;
+    background-color:   #ffd6ba;
+    box-shadow:         0px 2px 15px 1px rgba(0,0,0,0.44);
+    -webkit-box-shadow: 0px 2px 15px 1px rgba(0,0,0,0.44);
+    -moz-box-shadow:    0px 2px 15px 1px rgba(0,0,0,0.44);
+}
+#logo {
+    font-size:   40px;
+    margin-left: 117px;
+    color:       #292929;
+}
+#categorias {
+    display:      flex;
+    gap:          20px;
+    margin-right: 117px;
+    font-size:    18px;
+    color:        #292929;
+}
+#categorias button:first-child {
+    font-weight: bold;
+}
+#categorias button {
+    border: none;
+    border-bottom: 2px solid #ffd6ba ;
+    background-color: #ffd6ba;
+    font-size: 16px;
+}
+#categorias button:hover {
+    border-bottom: 2px solid #f28482;
+    cursor:        pointer;
+}
+
+main {
+    display: flex;
+    margin:  52px 115px;
+}
+#vitrine {
+   min-width: 950px;
+}
+#vitrine ul {
+    display:         flex;
+    justify-content: flex-start;
+    align-items:     center;
+    flex-wrap:       wrap;
+    gap:             40px;
+}
+#vitrine ul li {
+    width:              250px;
+    height:             410px;
+    border:             2px solid white;
+    border-radius:      5px;
+    box-shadow:         2px 1px 14px -2px rgba(0,0,0,0.62);
+    -webkit-box-shadow: 2px 1px 14px -2px rgba(0,0,0,0.62);
+    -moz-box-shadow:    2px 1px 14px -2px rgba(0,0,0,0.62);
+}
+#vitrine ul li:hover {
+    border: 2px solid #f28482;
+}
+.img img {
+    width:         250px; 
+    height:        230px;
+    border:        none;
+    border-radius: 5px;
+}
+.descricao {
+    height:         148px;
+    display:        flex;
+    flex-direction: column;
+    gap:            10px;
+    margin:         10px;
+    font-size:      14px;
+}
+.tag {
+    width:            70px;
+    height:           20px;
+    display:          flex;
+    justify-content:  center;
+    align-items:      center;
+    font-size:        12px;
+    font-weight:      400;
+    color:            white;
+    background-color: #f28482;
+}
+.nomeProdutos {
+    font-size:   18px;
+    font-weight: 700;
+    color:       #292929;
+}
+.descricoes {
+    height:      36.6px;
+    font-size:   14px;
+    font-weight: 400;
+    color:       #242424;
+}
+.valores{
+    font-size:   14px;
+    font-weight: 600;
+    color:       #f08080;
+}
+.btnAddCarrinho{
+    padding:          0;
+    border:           none;
+    text-align:       start;
+    font-size:        14px;
+    font-weight:      500;
+    color:            #242424;
+    background-color: white;
+}
+.btnAddCarrinho:hover{
+    color:  #fec89a;
+    cursor: pointer;
+}
+
+aside {
+    min-width:      350px;
+    display:        flex;
+    flex-direction: column;
+    gap:            30px;
+}
+#barraPesquisa {
+    width:           347px;
+    display:         flex;
+    justify-content: space-between;
+}
+#barraPesquisa input {
+    width:            240px;
+    border:           none;
+    border-radius:    5px;
+    font-size:        14px;
+    font-weight:      400;
+    color:            #242424;
+    background-color: #faf9f9;
+}
+#barraPesquisa input::placeholder{
+    text-align:  center;
+    font-size:   14px;
+    font-weight: 400;
+    color:       #242424;
+}
+#btnPesquisar {
+    width:            96px;
+    height:           50px;
+    border:           none;
+    border-radius:    5px;
+    font-size:        16px;
+    font-weight:      500;
+    color:            white;
+    background-color: #bee3db;
+}
+#btnPesquisar:hover {
+    background-color: #89b0ae;
+    cursor:           pointer;
+}
+#carrinho {
+    width:            347px;
+    min-height:       214px;
+    border-radius:    5px;
+    display:          flex;
+    flex-direction:   column;
+    background-color: #faf9f9;
+}
+#carrinho h2 {
+    height:           50px;
+    border-radius:    5px 5px 0 0;
+    display:          flex;
+    justify-content:  center;
+    align-items:      center;
+    font-size:        18px;
+    font-weight:      600;
+    color:            white;
+    background-color: #bee3db;
+}
+#carrinhoArea{
+    height:          400px;
+    margin:          0;
+    display:         flex;
+    flex-direction:  column;
+    justify-content: center;
+    text-align:      center;
+}
+.mainCarrinho {
+    height:          100%;
+    gap:             10px;
+    display:         flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items:     center;  
+}
+.carrinhoAtualizado {
+    width:          100%;
+    height:         300px;
+    margin-top:     20px;
+    margin-bottom:  20px;
+    display:        flex;
+    flex-direction: column;
+    gap:            10px;
+    overflow:       hidden;
+    overflow-y:     auto;
+}
+#carrVazio {
+    width:       100%;
+    font-size:   22px;
+    font-weight: 700;
+    color:       #292929;
+}
+#adicioneItens {
+    font-size: 14px;
+    color:     #242424;
+}
+#ulCarrinho{
+    max-height:      300px;
+    display:         flex;
+    flex-direction:  column;
+    gap:             15px;
+}
+
+.itensCarrinho {
+    width:           340px;
+    display:         flex;
+    justify-content: center;
+    gap:             15px;
+}
+.itensCarrinho img {
+    width:         100px;
+    border:        1px #52796f solid; 
+    border-radius: 5px;
+}
+.itensCarrinho div{
+    min-width:       180px;
+    display:         flex;
+    flex-direction:  column;
+    justify-content: space-between;
+    align-items:     flex-start;
+
+}
+.itensCarrinho div h3 {
+    font-size:   18px;
+    font-weight: 700;
+    color:       #333333;
+}
+.itensCarrinho div p {
+    font-size:       14px;
+    font-weight:     600;
+    color:           #f28482
+}
+.itensCarrinho div button {
+    font-weight:      400px;
+    font-size:        14px;
+    border:           none;
+    background-color: #faf9f9;
+    padding:          0;
+}
+.itensCarrinho div button:hover{
+    color:  #5ca4a9;
+    cursor: pointer;
+
+}
+
+#infoFinalCarrinho{
+    min-height:       100px;
+    gap:              10px;
+    padding-left:     20px;
+    padding-right:    20px;
+    display:          flex;
+    flex-direction:   column;
+    justify-content:  center;
+    align-items:      flex-start;
+    background-color: #52796f;
+    border-radius:    0px 0px 10px 10px;
+    
+}
+#infoFinalCarrinho h4, span {
+    font-size:   18px;
+    font-weight: 500;
+    color:       white;
+    margin:      0;
+}
+#qntd {
+    width:           100%;
+    display:         flex;
+    justify-content: space-between;    
+}
+#total{
+    width:           100%;
+    display:         flex;
+    justify-content: space-between;
+   
+}
+
+.hidden {
+    display: none;
+}
