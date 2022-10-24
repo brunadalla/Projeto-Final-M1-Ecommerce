@@ -1,5 +1,5 @@
 ## Projeto Final 
-Projeto final do primeiro módulo do curso de formação em **Desenvolvimento Full Stack da Kenzie Academy Brasil**.
+Projeto final do primeiro módulo do curso de **Formação em Desenvolvimento Full Stack da Kenzie Academy Brasil**.
 
 Realização de uma aplicação e-commerce para praticar conhecimentos sobre **HTML, CSS e JS**, contendo:
 - **Header**: Com logotipo e botões de navegação;
